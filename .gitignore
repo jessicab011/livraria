@@ -1,0 +1,16 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# TypeScript / Node.js
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Ambiente e editor
+.env
