@@ -11,6 +11,10 @@ node_modules/
 dist/
 build/
 *.tsbuildinfo
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
 
 # Ambiente e editor
 .env
