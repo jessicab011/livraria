@@ -1,0 +1,71 @@
+o {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5fa;
+    color: #292536;
+    line-height: 1.6;
+}
+
+.cabecalho {
+    background-color: #6c4ab6;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.cabecalho p {
+    font-size: 1rem;
+}
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.catalogo h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;    
+}
+
+.lista-livros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 24px 16px;
+    color: #6b6578;
+    font-size: 0.9rem;
+}
+
+.card-livro{
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(41, 37, 54, 0.08);
+    padding: 24px;
+    border: 1px solid #e9e3f2;
+}
+
+.card-livro h3 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: #6c4ab6;
+}
+
+.card-livro p {
+    margin-bottom: 8px;
+    color: #5c566b;
+}
